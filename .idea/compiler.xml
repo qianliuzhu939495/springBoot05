@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloudcustomer" />
+        <module name="springcloudserver2" />
+        <module name="springcloudserver" />
+        <module name="springcloudzuul" />
+        <module name="springcloudproduct2" />
+        <module name="springcloudproduct1" />
+        <module name="springcloudproductb" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="entitys" target="1.5" />
+      <module name="springcloudproduct" target="1.5" />
+      <module name="springCloudproduct" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
