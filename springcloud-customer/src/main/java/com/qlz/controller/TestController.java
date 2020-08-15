@@ -21,4 +21,9 @@ public class TestController {
     public String select(){
         return porductService.select();
     }
+
+    @RequestMapping("insert")
+    public String insert(){
+        return "s";
+    }
 }
